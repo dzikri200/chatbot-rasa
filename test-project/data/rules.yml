@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+
+- rule: Say terimakasih anytime the user says terimakasih
+  steps:
+  - intent: terimakasih
+  - action: utter_terimakasih
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

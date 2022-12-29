@@ -1,0 +1,103 @@
+version: "2.0"
+
+stories:
+
+- story: stunting path
+  steps:
+  - intent: sapaan
+  - action: utter_sapaan
+
+- story: pertanyaan 1
+  steps:
+  - intent: pertanyaan_stunting
+  - action: utter_stunting
+
+- story: pertanyaan 2
+  steps:
+  - intent: pertanyaan_nutrisi
+  - action: utter_nutrisi
+
+- story: pertanyaan 3
+  steps:
+  - intent: pertanyaan_stunting_2tahun
+  - action: utter_stunting_2tahun
+
+- story: pertanyaan 4
+  steps:
+  - intent: pertanyaan_vitamin
+  - action: utter_vitamin
+
+- story: pertanyaan 5
+  steps:
+  - intent: pertanyaan_pencegahan
+  - action: utter_pencegahan
+
+- story: pertanyaan 6
+  steps:
+  - intent: pertanyaan_sufor
+  - action: utter_sufor
+
+- story: pertanyaan 7
+  steps:
+  - intent: pertanyaan_bayi1
+  - action: utter_bayi1
+
+- story: pertanyaan 8
+  steps:
+  - intent: pertanyaan_bayi2
+  - action: utter_bayi2
+
+- story: pertanyaan 9
+  steps:
+  - intent: pertanyaan_bayi3
+  - action: utter_bayi3
+
+- story: pertanyaan 10
+  steps:
+  - intent: pertanyaan_prematur
+  - action: utter_prematur
+
+- story: pertanyaan 11
+  steps:
+  - intent: pertanyaan_bb_melambat
+  - action: utter_bb_melambat
+
+- story: pertanyaan 12
+  steps:
+  - intent: pertanyaan_zatbesi
+  - action: utter_zatbesi
+
+- story: pertanyaan 13
+  steps:
+  - intent: pertanyaan_zatbesi12
+  - action: utter_zatbesi12
+
+- story: pertanyaan 14
+  steps:
+  - intent: pertanyaan_menyusui
+  - action: utter_menyusui
+
+- story: pertanyaan 15
+  steps:
+  - intent: pertanyaan_mpasi
+  - action: utter_mpasi
+
+- story: pertanyaan 16
+  steps:
+  - intent: pertanyaan_gagal_tumbuh
+  - action: utter_gagal_tumbuh
+
+- story: pertanyaan 17
+  steps:
+  - intent: pertanyaan_hamil
+  - action: utter_hamil
+
+- story: pertanyaan 18
+  steps:
+  - intent: terimakasih
+  - action: utter_terimakasih
+
+- story: bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

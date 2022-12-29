@@ -1,0 +1,92 @@
+version: "2.0"
+
+nlu:
+- intent: sapaan
+  examples: |
+    - hey
+    - hello
+    - hi
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+  
+- intent: pertanyaan_stunting
+  examples: |
+    - apa itu stunting
+    - bagaimana membedakan stunting atau genetik
+
+- intent: pertanyaan_nutrisi
+  examples: |
+    - Seperti apa anjuran nutrisi anak di atas 2 tahun supaya tidak stunting dan tidak anemia defisiensi besi?
+
+- intent: pertanyaan_stunting_2tahun
+  examples: |
+    - Apakah stunting setelah usia 2 tahun (sudah lewat 1000 hari pertama kehidupan) sama sekali tidak bisa diperbaiki?
+
+- intent: pertanyaan_vitamin
+  examples: |
+    - Apakah vitamin/ suplemen / minyak ikan dapat mencegah stunting?
+
+- intent: pertanyaan_pencegahan
+  examples: |
+    - Adakah cara cepat/ tips mencegah stunting?
+
+- intent: pertanyaan_sufor
+  examples: |
+    - Perlukah menambah sufor saat MPASI jika kenaikan berat badan melambat?
+
+- intent: pertanyaan_bayi1
+  examples: |
+   - Saya memiliki seorang bayi kurang dari 6 bulan yang mengalami kenaikan berat badan yang melambat. Apa yang harus saya lakukan?
+
+- intent: pertanyaan_bayi2
+  examples: |
+    - Saya memiliki seorang bayi usia 6-12 bulan yang mengalami pertumbuhan melambat. Apa yang harus saya lakukan?
+
+- intent: pertanyaan_bayi3
+  examples: |
+    - Saya memiliki seorang bayi usia 12-24 bulan yang mengalami kenaikan berat badan yang melambat. Apa yang harus saya lakukan?
+
+- intent: pertanyaan_prematur
+  examples: |
+    - Bagaimana menilai pertumbuhan dan perkembangan bayi prematur?
+
+- intent: pertanyaan_bb_melambat
+  examples: |
+   - Pertumbuhan BB melambat dan bahkan cenderung tidak naik, apakah stunting?
+
+- intent: pertanyaan_zatbesi
+  examples: |
+   - Pemberian besi pada anak-anak dan remaja sebaiknya bagaimana?
+
+- intent: pertanyaan_zatbesi12
+  examples: |
+   - Bagaimana pemberian zat besi pada bayi di bawah 12 bulan?
+
+- intent: pertanyaan_menyusui
+  examples: |
+   - Bayi menyusui 30-40 menit, bagaimana tips supaya bayi kenyang 10-15 menit?
+
+- intent: pertanyaan_mpasi
+  examples: |
+   - Aturan MPASI sangat keliru misalnya banyak karbo, gorengan, terlalu banyak sufor, namun berat badan naik bagus dan kurva pertumbuhan baik, apakah ini berbahaya?
+
+- intent: pertanyaan_gagal_tumbuh
+  examples: |
+   - Anak gagal tumbuh sebelum usia 6 bulan, dan dianjurkan pemberian sufor, bagaimana manajemen sufor?
+
+- intent: pertanyaan_hamil
+  examples: |
+   - Ibu hamil defisiensi besi, bagaimana mengatasinya?
+
+- intent: terimakasih
+  examples: |
+    - terimakasih bot
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
